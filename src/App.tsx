@@ -9,7 +9,7 @@ function App() {
   return (
     <Provider store={store}>
       <h1>Search</h1>
-      {/* <Lyrics /> */}
+      <Lyrics />
       <Search />
     </Provider>
   );

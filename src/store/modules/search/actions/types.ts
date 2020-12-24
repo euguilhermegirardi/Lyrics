@@ -25,7 +25,7 @@ export interface GetLyricsSuccessAction {
 export const GET_LYRICS_FAILURE = "lyricsActionTypes/GET_LYRICS_FAILURE";
 export interface GetLyricsFailureAction {
   type: typeof GET_LYRICS_FAILURE;
-  error?: Error | string;
+  error: Error | string;
 }
 
 export type LyricsAction =

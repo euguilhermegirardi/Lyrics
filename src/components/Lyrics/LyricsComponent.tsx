@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from "react";
 
 interface Props {
-  lyrics: string;
-  isLoading: boolean;
-  error: Error | string;
+  lyrics?: string;
+  isLoading?: boolean;
+  error?: Error | string;
 }
 
 const LyricsComponent: FunctionComponent<Props> = props => {
